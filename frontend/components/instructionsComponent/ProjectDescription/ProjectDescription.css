@@ -1,0 +1,18 @@
+.projectDescription {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .projectDescription h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .projectDescription p {
+    margin-bottom: 0;
+    color: #666;
+  }
+  

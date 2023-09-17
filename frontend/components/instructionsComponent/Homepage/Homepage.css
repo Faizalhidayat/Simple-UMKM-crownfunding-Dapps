@@ -1,0 +1,70 @@
+.banner {
+  position: relative;
+  height: 90vh;
+  background-image: url('../image/homepage.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #040404;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+}
+
+.banner-text {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: left; /* Menggeser teks ke kiri tengah */
+  margin-left: 10px; /* Menggeser teks ke kiri lebih jauh */
+}
+
+.banner-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Your Chosen Font', sans-serif;
+}
+
+.center-text {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.banner-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.banner-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Animasi untuk fade-in */
+.banner {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
